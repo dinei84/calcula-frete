@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Calculadora de Frete</title>
+</head>
+<body>
+    <h1>CALCULADORA DE FRETE</h1>
+    <p>Preencha os campos com as informações do carregamento</p>
+
+    <div class="container">
+    <input type="number" value="valor do frete" id="valor">
+    <label for="valor"><p class="ref">Valor do Frete</p></label>
+
+    <input type="number" class="item" id="pedagio">
+    <label for="pedagio"><p class="ref">Pedágio</p></label>
+
+    <input type="number" class="item" id="peso">
+    <label for="peso"><p class="ref">Peso carregado</p></label>
+
+    <input type="button" value="Calcular" class="item" id="botao" onclick="clicar()">
+    <label for="botao"></label>
+
+    <input type="button" value="Limpar" class="item" id="clean" onclick="limparCampos()">
+    <label for="clean"></label>
+
+    <input type="number" class="item" id="res">
+    <label for="res"><p class="ref">Valor do frete Unitário</p></label>
+
+    <input type="number" class="item" id="adianta">
+    <label for="adianta"><p class="ref">Adiantamento</p></label>
+    </div>
+
+    <script src="calc.js"></script>
+
+</body>
+</html>
