@@ -87,24 +87,33 @@ input{
 
 @media screen and (max-width: 800px) {
     .container{
-        width: 400px;
+        width: 350px;
         height: 500px;
     }
     input{
-        width: 65px;
+        width: 85px;
         height: 45px;
         font-size: 20px;
         border-radius: 10px;
         /* margin-top: 15px; */
-        border: 3px solid black;
+        border: 3px solid black;        
     }
     .ref{
-        width: 105px;
+        width: 100px;
         height: 38px;
         border-radius: 8px;
         background-color: rgba(141, 40, 40, 0.533);
         padding-top: 5px;
         color: white;
         font-size: 15px;
+        text-shadow: 1px 1px 0.5px black;
+    }
+    input.bot1{
+        font-size: 15px;
+        font-weight: bolder;        
+    }
+    input.bot2{
+        font-size: 15px;
+        font-weight: bolder;
     }
 }
