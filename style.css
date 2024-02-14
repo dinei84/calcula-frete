@@ -55,6 +55,15 @@ input{
     border: 3px solid black;
 }
 
+
+.bot1{
+    font-weight: bolder;
+}
+.bot2{
+    font-weight: bolder;
+}
+
+
 #botao{
     background-color: green;
     border-radius: 30px;
@@ -75,14 +84,17 @@ input{
     color: red;
 }
 
+/* Caixinhas de texto embaixo dos inputs */
 .ref{
     width: 105px;
     height: 38px;
-    border-radius: 8px;
+    border-radius: 8px;    
     background-color: rgba(141, 40, 40, 0.505);
+    /* box-shadow: 3px 3px 3px solid black; */
     padding-top: 5px;
     color: white;
     font-size: 15px;
+    text-shadow: 1px 1px 0.5px black;
 }
 
 @media screen and (max-width: 800px) {
