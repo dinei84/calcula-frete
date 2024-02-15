@@ -42,7 +42,8 @@ function clicar() {
     var vsdsa = res * peso;
     var ajt2 = vsdsa / 1000;
     var ajt3 = ajt2 * 0.7;
-    var adianta = ajt3.toFixed(2);
+    var ajt4 = ajt3 * (1 - 0.018);
+    var adianta = ajt4.toFixed(2);
 
     document.getElementById('res').value = res.toFixed(2);
     document.getElementById('adianta').value = adianta;
