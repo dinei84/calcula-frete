@@ -5,7 +5,9 @@
 // vsdsa = valor sem desconto e sem ajuste
 // ajt2 = ajuste 2
 // ajt3 = ajuste 3
+// ajt4 = ajuste do valor - o seguro de viajem
 // adianta = adiantamento
+//
 
 
 // Adiciona um ouvinte de evento para a tecla "Enter" nos campos de entrada
