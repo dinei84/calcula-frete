@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
-
 *{
     margin: 0px;
     padding: 0px;
@@ -11,10 +9,10 @@
 
 
 body{
-    background-image: url(img/frota.webp);
+    background-image: url(img/g10.jpeg);
     background-repeat: repeat-x;
     background-size: auto;
-    background-position: center center; 
+    background-position: center right;     
     font-family: "Noto Sans Mono", monospace;    
     font-optical-sizing: auto;
     font-weight: weight;
@@ -33,26 +31,25 @@ body{
 .container{
     margin: auto;
     width: 400px;
-    height: 550px;
+    height: 570px;    
     border: 3px solid black;
     border-radius: 25px;
-    box-shadow: 10px 16px 18px rgb(150, 29, 29);
-    background-image: linear-gradient(to top, rgb(82, 20, 20), white);
-    background: transparent;
-    
-    
+    box-shadow: 10px 16px 18px rgb(50, 26, 26);    
+    background: rgb(232, 228, 228);    
 }
 
 h1{
     font-family: sans-serif;
     margin-bottom: 5px;
     text-align: center;
+    color: white;
 }
 
 p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:sans-serif;
     font-weight: bold;
-    text-align: center;
+    color:white;
+    text-align: center;    
     margin-bottom: 2px;    
 }
 
@@ -61,12 +58,13 @@ input{
     height: 45px;
     font-size: 20px;
     border-radius: 10px;
-    margin-top: 5px;
-    border: 3px solid black;
+    /* margin-top: 5px; */
+    border: 3px solid rgb(4, 4, 4);
 }
 
 
 .bot1{
+    margin-left: 100px;
     font-weight: bolder;
 }
 .bot2{
@@ -74,7 +72,7 @@ input{
 }
 
 
-#botao{
+#botao{    
     background-color: green;
     border-radius: 30px;
 }
@@ -94,17 +92,14 @@ input{
     color: red;
 }
 
-/* Caixinhas de texto embaixo dos inputs */
+/* Caixinhas de texto emcima dos inputs */
 .ref{
     width: 105px;
     height: 38px;
+    margin-top: 10PX;
     border-radius: 8px;    
-    background-color: rgba(141, 40, 40, 0.505);
-    /* box-shadow: 3px 3px 3px solid black; */
-    padding-top: 5px;
-    color: white;
-    font-size: 15px;
-    text-shadow: 1px 1px 0.5px black;
+    padding-top: 5px; 
+    color: black;   
 }
 
 @media screen and (max-width: 800px) {
@@ -121,18 +116,16 @@ input{
         border: 3px solid black;        
     }
     .ref{
-        width: 100px;
+        width: 105px;
         height: 38px;
-        border-radius: 8px;
-        background-color: rgba(141, 40, 40, 0.533);
+        margin-top: 10PX;
+        border-radius: 8px;    
         padding-top: 5px;
-        color: white;
-        font-size: 15px;
-        text-shadow: 1px 1px 0.5px black;
     }
     input.bot1{
         font-size: 15px;
-        font-weight: bolder;        
+        font-weight: bolder;  
+        margin-bottom: 5px;      
     }
     input.bot2{
         font-size: 15px;
