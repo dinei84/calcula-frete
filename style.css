@@ -9,7 +9,7 @@
 
 
 body{
-    background-image: url(img/g10.jpeg);
+    background-image: url(img/g10trans2.jpeg);
     background-repeat: repeat-x;
     background-size: auto;
     background-position: center right;     
@@ -83,7 +83,7 @@ input{
 }
 
 #clean{
-    background-color: red;
+    background-color:rgb(108, 46, 47);
     border-radius: 30px;
 }
 
