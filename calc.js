@@ -1,16 +1,4 @@
-// pcd = pedagio com desconto
-// ajt1 = ajuste 1
-// res = resultado
-// valsdesc = valor sem desconto
-// vsdsa = valor sem desconto e sem ajuste
-// ajt2 = ajuste 2
-// ajt3 = ajuste 3
-// ajt4 = ajuste do valor - o seguro de viajem
-// adianta = adiantamento
-//
 
-
-// Adiciona um ouvinte de evento para a tecla "Enter" nos campos de entrada
 document.getElementById("valor").addEventListener("keyup", function(event) {
     // Verifica se a tecla pressionada é a tecla "Enter"
     if (event.key === "Enter") {
