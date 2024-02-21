@@ -1,31 +1,37 @@
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("valor").addEventListener("keyup", function(event) {
+        if (event.key === "Enter") {
+            clicar();
+        }
+    });
 
-document.getElementById("valor").addEventListener("keyup", function(event) {
-    // Verifica se a tecla pressionada é a tecla "Enter"
-    if (event.key === "Enter") {
-        // Chama a função clicar() quando a tecla "Enter" for pressionada
+    document.getElementById("pedagio").addEventListener("keyup", function(event) {
+        if (event.key === "Enter") {
+            clicar();
+        }
+    });
+
+    document.getElementById("peso").addEventListener("keyup", function(event) {
+        if (event.key === "Enter") {
+            clicar();
+        }
+    });
+
+    document.getElementById("botao").addEventListener("click", function() {
         clicar();
-    }
-});
+    });
 
-document.getElementById("pedagio").addEventListener("keyup", function(event) {
-    if (event.key === "Enter") {
-        clicar();
-    }
+    document.getElementById("clean").addEventListener("click", function() {
+        limparCampos();
+    });
 });
-
-document.getElementById("peso").addEventListener("keyup", function(event) {
-    if (event.key === "Enter") {
-        clicar();
-    }
-});
-
 
 function clicar() {
     var valor = parseFloat(document.getElementById('valor').value);
     var pedagio = parseFloat(document.getElementById('pedagio').value);
     var peso = parseFloat(document.getElementById('peso').value);
     
-    var pcd = pedagio ? pedagio / peso : 0; // Verifica se há valor de pedágio, se não, atribui zero
+    var pcd = pedagio ? pedagio / peso : 0;
     var ajt1 = pcd * 1000;
     var res = valor - ajt1;
     var valsdesc = valor * peso;
