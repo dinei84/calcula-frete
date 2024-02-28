@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/contabilidade.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="style.css">
 
     <title>Calculadora de Frete</title>
 </head>
@@ -33,24 +33,16 @@
         <div>
             
             <label for="clean"></label>
-            <input type="button" value="Limpar" class="bot2" id="clean">
+            <input type="button" value="Limpar" class="bot2" id="clean" onclick="limparCampos()">
 
             <label for="botao"></label>
-            <input type="button" value="Calcular" class="bot1" id="botao">            
+            <input type="button" value="Calcular" class="bot1" id="botao" onclick="clicar()">            
             
         </div>
         
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/jquery.mask.min.js"></script>
-    <script src="js/calc.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('#valor').mask('000.00')           
-            $('#peso').mask('00.000')
-        });
-    </script>
+    <script src="calc.js"></script>
 
 </body>
 </html>
