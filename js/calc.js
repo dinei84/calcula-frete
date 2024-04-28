@@ -3,19 +3,17 @@ document.addEventListener("DOMContentLoaded", function() {
         if (event.key === "Enter") {
             clicar();
         }
-    });
-
+    })
     document.getElementById("pedagio").addEventListener("keyup", function(event) {
         if (event.key === "Enter") {
             clicar();
         }
-    });
-
+    })
     document.getElementById("peso").addEventListener("keyup", function(event) {
         if (event.key === "Enter") {
             clicar();
         }
-    });
+    })
 
     document.getElementById("botao").addEventListener("click", function() {
         clicar();
